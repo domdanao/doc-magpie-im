@@ -1,0 +1,83 @@
+{
+	"name": "Magpie API",
+	"sidebar": [
+		{
+			"name": "Getting Started with Magpie",
+			"type": "folder",
+			"icon": "rocket",
+			"children": [
+				{
+					"path": "docs/guides/index.md",
+					"type": "page",
+					"name": "Introduction"
+				},
+				{
+					"path": "docs/guides/security.md",
+					"type": "page",
+					"name": "Security"
+				}
+			]
+		},
+		{
+			"name": "Magpie Core Payments API",
+			"type": "folder",
+			"icon": "gear",
+			"children": [
+				{
+					"name": "Core Payments",
+					"type": "folder",
+					"children": [
+						{
+							"path": "docs/guides/payments/intro.md",
+							"type": "page",
+							"name": "Introduction"
+						},
+						{
+							"path": "docs/guides/payments/payment-methods.md",
+							"type": "page",
+							"name": "Payment Methods"
+						},
+						{
+							"path": "docs/guides/payments/currencies.md",
+							"type": "page",
+							"name": "Currencies"
+						},
+						{
+							"path": "docs/guides/payments/refunds-chargebacks.md",
+							"type": "page",
+							"name": "Refunds and Chargebacks"
+						}
+					]
+				},
+				{
+					"path": "docs/guides/quick-start/details/project-settings.md",
+					"type": "page",
+					"name": "Project Settings"
+				},
+				{
+					"path": "docs/guides/quick-start/details/api-client.md",
+					"type": "page",
+					"name": "API Client"
+				}
+			]
+		},
+		{
+			"name": "Appendix",
+			"type": "folder",
+			"icon": "notebook",
+			"defaultOpen": false,
+			"children": [
+				{
+					"path": "docs/guides/quick-start/details/scalar-cli.md",
+					"type": "page",
+					"name": "Scalar CLI"
+				},
+				{
+					"path": "docs/guides/quick-start/details/syntax.md",
+					"type": "page",
+					"name": "Syntax"
+				}
+			]
+		}
+	]
+}

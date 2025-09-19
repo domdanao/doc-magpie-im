@@ -1,51 +1,167 @@
 {
-  "references": [
-    {
-      "name": "API Reference",
-      "path": "./docs/api-reference/openapi.yaml"
-    }
-  ],
-  "guides": [
-    {
-      "name": "Quick Start",
-      "sidebar": [
-        {
-          "name": "Getting Started with Scalar",
-          "type": "folder",
-          "icon": "rocket",
-          "children": [
-            { "path": "docs/guides/quick-start/introduction.md", "type": "page", "name": "Overview" },
-            { "path": "docs/guides/quick-start/details/quickstart.md", "type": "page", "name": "Quickstart" },
-            { "path": "docs/guides/quick-start/details/development.md", "type": "page", "name": "Development" }
-          ]
-        },
-        {
-          "name": "Customizing Your Setup",
-          "type": "folder",
-          "icon": "gear",
-          "children": [
-            { "path": "docs/guides/quick-start/details/project-settings.md", "type": "page", "name": "Project Settings" },
-            { "path": "docs/guides/quick-start/details/api-client.md", "type": "page", "name": "API Client" }
-          ]
-        },
-        {
-          "name": "Appendix",
-          "type": "folder",
-          "icon": "notebook",
-          "defaultOpen": false,
-          "children": [
-            { "path": "docs/guides/quick-start/details/scalar-cli.md", "type": "page", "name": "Scalar CLI" },
-            { "path": "docs/guides/quick-start/details/syntax.md", "type": "page", "name": "Syntax" }
-          ]
-        }
-      ]
-    }
-  ],
-  "siteConfig": {
-    "theme": "purple",
-    "logo": {
-      "darkMode": "https://scalar.com/logo-light.svg",
-      "lightMode": "https://scalar.com/logo-dark.svg"
-    }
-  }
+	"$schema": "https://cdn.scalar.com/schema/scalar-config.json",
+	"subdomain": "magpie.apidocumentation.com",
+	"references": [
+		{
+			"name": "Magpie Core Payment API",
+			"path": "./docs/api-reference/payments.yaml"
+		},
+		{
+			"name": "Magpie Checkout Sessions API",
+			"path": "./docs/api-reference/checkout.yaml"
+		},
+		{
+			"name": "Magpie Payment Requests API",
+			"path": "./docs/api-reference/requests.yaml"
+		},
+		{
+			"name": "Magpie Payment Links API",
+			"path": "./docs/api-reference/links.yaml"
+		}
+	],
+	"guides": [
+		{
+			"name": "Magpie Platform",
+			"sidebar": [
+				{
+					"name": "Introduction",
+					"type": "folder",
+					"icon": "rocket",
+					"children": [
+						{
+							"path": "docs/guides/index.md",
+							"type": "page",
+							"name": "About Magpie",
+							"icon": "phosphor/thin/bird"
+						},
+						{
+							"path": "docs/guides/security.md",
+							"type": "page",
+							"name": "Security",
+							"icon": "phosphor/thin/shield-check"
+						}
+					]
+				},
+				{
+					"name": "Getting Started",
+					"type": "folder",
+					"icon": "pencil",
+					"children": [
+						{
+							"name": "Activating Your Account",
+							"type": "page",
+							"path": "docs/guides/getting-started/activate-your-account.md",
+							"icon": "phosphor/thin/check-circle"
+						},
+						{
+							"name": "Getting Paid",
+							"type": "page",
+							"path": "docs/guides/getting-started/getting-paid.md",
+							"icon": "phosphor/thin/coin"
+						},
+						{
+							"name": "Fees",
+							"type": "page",
+							"path": "docs/guides/getting-started/fees.md",
+							"icon": "phosphor/thin/money"
+						},
+						{
+							"name": "Supported Countries",
+							"type": "page",
+							"path": "docs/guides/getting-started/supported-countries.md",
+							"icon": "phosphor/thin/globe-simple"
+						},
+						{
+							"name": "Restricted Businesses",
+							"type": "page",
+							"path": "docs/guides/getting-started/restricted-businesses.md",
+							"icon": "phosphor/thin/shield-warning"
+						}
+					]
+				},
+				{
+					"name": "Merchant Dashboard",
+					"type": "folder",
+					"icon": "chart-bar",
+					"children": [
+						{
+							"name": "Your Dashboard",
+							"type": "page",
+							"path": "docs/guides/dashboard/dashboard-intro.md",
+							"icon": "phosphor/thin/app-window"
+						},
+						{
+							"name": "Web Dashboard",
+							"type": "page",
+							"path": "docs/guides/dashboard/web-dashboard.md",
+							"icon": "phosphor/thin/webhooks-logo"
+						}
+					]
+				},
+				{
+					"name": "Payments",
+					"type": "folder",
+					"icon": "credit-card",
+					"children": [
+						{
+							"name": "Overview",
+							"type": "page",
+							"path": "docs/guides/payments/intro.md",
+							"icon": "phosphor/thin/cash-register"
+						},
+						{
+							"name": "Payment Methods",
+							"type": "page",
+							"path": "docs/guides/payments/payment-methods.md",
+							"icon": "phosphor/thin/cards"
+						},
+						{
+							"name": "Currencies",
+							"type": "page",
+							"path": "docs/guides/payments/currencies.md",
+							"icon": "phosphor/thin/currency-circle-dollar"
+						},
+						{
+							"name": "Refunds and Chargebacks",
+							"type": "page",
+							"path": "docs/guides/payments/currencies.md",
+							"icon": "phosphor/thin/x-circle"
+						}
+					]
+				},
+				{
+					"name": "Checkout",
+					"type": "page",
+					"icon": "line/shopping-cart",
+					"path": "docs/guides/checkout/intro.md"
+				},
+				{
+					"name": "No-code solutions",
+					"type": "folder",
+					"icon": "puzzle-piece",
+					"children": [
+						{
+							"name": "Payment Requests",
+							"type": "page",
+							"path": "docs/guides/no-code/payment-requests.md",
+							"icon": "phosphor/thin/note"
+						},
+						{
+							"name": "Payment Links",
+							"type": "page",
+							"path": "docs/guides/no-code/payment-links.md",
+							"icon": "phosphor/thin/link"
+						}
+					]
+				}
+			]
+		}
+	],
+	"siteConfig": {
+		"theme": "purple",
+		"logo": {
+			"darkMode": "https://magpie.im/assets/images/logo.png",
+			"lightMode": "https://magpie.im/assets/images/logo.png"
+		}
+	}
 }
