@@ -3,20 +3,25 @@
 	"subdomain": "magpie.apidocumentation.com",
 	"references": [
 		{
-			"name": "Magpie Core Payment API",
-			"path": "./docs/api-reference/payments.yaml"
+			"name": "Core Payments",
+			"path": "./docs/api-reference/payments.yaml",
+			"slug": "magpie-core-payment-api",
+			"description": "The Core Payments API allows you to create and manage payments, including creating payment , confirming payments, and handling refunds."
 		},
 		{
-			"name": "Magpie Checkout Sessions API",
-			"path": "./docs/api-reference/checkout.yaml"
+			"name": "Checkout Sessions",
+			"path": "./docs/api-reference/checkout.yaml",
+			"slug": "magpie-checkout-sessions-api"
 		},
 		{
-			"name": "Magpie Payment Requests API",
-			"path": "./docs/api-reference/requests.yaml"
+			"name": "Payment Requests",
+			"path": "./docs/api-reference/requests.yaml",
+			"slug": "magpie-payment-requests-api"
 		},
 		{
-			"name": "Magpie Payment Links API",
-			"path": "./docs/api-reference/links.yaml"
+			"name": "Payment Links",
+			"path": "./docs/api-reference/links.yaml",
+			"slug": "magpie-payment-links-api"
 		}
 	],
 	"guides": [
@@ -124,7 +129,7 @@
 						{
 							"name": "Refunds and Chargebacks",
 							"type": "page",
-							"path": "docs/guides/payments/currencies.md",
+							"path": "docs/guides/payments/refunds-chargebacks.md",
 							"icon": "phosphor/thin/x-circle"
 						}
 					]

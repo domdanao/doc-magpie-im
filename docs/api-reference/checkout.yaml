@@ -7,7 +7,7 @@ servers:
   - url: https://api.pay.magpie.im/
     description: Production server for Magpie Checkout API
 paths:
-  /sessions:
+  /:
     post:
       tags:
         - Checkout Sessions
@@ -128,7 +128,7 @@ paths:
                   $ref: '#/components/schemas/ListSessionsSerializer'
       security:
         - HTTPBasic: []
-  /sessions/{id}:
+  /{id}:
     get:
       tags:
         - Checkout Sessions
@@ -157,7 +157,7 @@ paths:
                 $ref: '#/components/schemas/HTTPNotFoundError'
       security:
         - HTTPBasic: []
-  /sessions/{id}/expire:
+  /{id}/expire:
     post:
       tags:
         - Checkout Sessions
@@ -186,7 +186,7 @@ paths:
                 $ref: '#/components/schemas/HTTPNotFoundError'
       security:
         - HTTPBasic: []
-  /sessions/{id}/capture:
+  /{id}/capture:
     post:
       tags:
         - Checkout Sessions

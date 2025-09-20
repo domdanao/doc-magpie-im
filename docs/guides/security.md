@@ -7,6 +7,7 @@ At Magpie, security is at the core of everything we do. We prioritize protecting
 Security isn't just a feature—it's fundamental to our platform. We continuously evolve our security practices to address emerging threats and maintain the highest standards of data protection in the financial industry.
 
 ### Security Principles
+
 - **Defense in Depth** - Multiple layers of security protection
 - **Zero Trust Architecture** - Verify everything, trust nothing
 - **Continuous Monitoring** - 24/7 threat detection and response
@@ -20,6 +21,7 @@ Security isn't just a feature—it's fundamental to our platform. We continuousl
 Magpie maintains **PCI Service Provider Level 1** certification, the highest level of compliance in the payment industry.
 
 #### What This Means:
+
 - **Rigorous security standards** across all systems
 - **Regular third-party audits** by certified security firms
 - **Continuous compliance monitoring** and updates
@@ -27,6 +29,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 - **Industry best practices** implementation
 
 #### Annual Validation:
+
 - **Comprehensive security assessment** by qualified assessors
 - **Penetration testing** and vulnerability scanning
 - **Security policy** review and updates
@@ -36,15 +39,16 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 ### Additional Compliance
 
 #### Financial Industry Standards
+
 - **ISO 27001** - Information security management
 - **SOC 2 Type II** - Security, availability, and confidentiality
 - **Philippine BSP** regulations and guidelines
 - **International banking** protocols and standards
 
 #### Data Protection Compliance
+
 - **Data Privacy Act** (Philippines) compliance
 - **GDPR** compliance for European customers
-- **CCPA** compliance for California residents
 - **Regional privacy** laws and regulations
 
 ## Infrastructure Security
@@ -52,12 +56,14 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 ### 🔒 Data Encryption
 
 #### Encryption at Rest
+
 - **AES-256 encryption** for all stored data
 - **Encrypted databases** with key rotation
 - **Secure backup storage** with encryption
 - **Hardware security modules** (HSM) for key management
 
 #### Encryption in Transit
+
 - **TLS 1.3** for all data transmission
 - **Perfect forward secrecy** for session protection
 - **Certificate pinning** for mobile applications
@@ -66,6 +72,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 ### 🏗️ Secure Infrastructure
 
 #### Cloud Security
+
 - **Multi-region deployment** for redundancy
 - **AWS/Azure security** best practices
 - **Network segmentation** and isolation
@@ -73,6 +80,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 - **Regular security** patching and updates
 
 #### Access Controls
+
 - **Multi-factor authentication** (MFA) for all access
 - **Role-based permissions** (RBAC)
 - **Just-in-time access** for privileged operations
@@ -84,6 +92,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 ### 🛡️ Fraud Prevention
 
 #### Real-Time Monitoring
+
 - **Machine learning** fraud detection
 - **Behavioral analysis** and risk scoring
 - **Velocity checking** and pattern recognition
@@ -91,8 +100,8 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 - **Device fingerprinting** for fraud prevention
 
 #### Advanced Protection
+
 - **3D Secure 2.0** authentication for cards
-- **Address verification** (AVS) for card payments
 - **CVV verification** and validation
 - **Blacklist management** for known fraudsters
 - **Manual review** for suspicious transactions
@@ -100,6 +109,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 ### 🔐 Authentication Security
 
 #### Strong Authentication
+
 - **Two-factor authentication** (2FA) support
 - **Biometric authentication** for mobile apps
 - **Hardware tokens** for enterprise accounts
@@ -107,6 +117,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 - **Password security** requirements and validation
 
 #### Session Management
+
 - **Secure session** handling and timeouts
 - **Session token** encryption and rotation
 - **Cross-site scripting** (XSS) protection
@@ -118,6 +129,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 ### 🔑 API Protection
 
 #### Authentication and Authorization
+
 - **API key** authentication with scoping
 - **OAuth 2.0** for third-party integrations
 - **Rate limiting** to prevent abuse
@@ -125,6 +137,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 - **Request signing** for critical endpoints
 
 #### API Security Best Practices
+
 - **Input validation** and sanitization
 - **Output encoding** and escaping
 - **SQL injection** prevention
@@ -134,6 +147,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 ### 📊 Monitoring and Logging
 
 #### Comprehensive Logging
+
 - **All API requests** and responses logged
 - **Security events** and anomalies tracked
 - **Failed authentication** attempts monitored
@@ -141,6 +155,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 - **Real-time alerting** for security incidents
 
 #### Security Monitoring
+
 - **24/7 security** operations center (SOC)
 - **Automated threat** detection and response
 - **Incident response** procedures and playbooks
@@ -152,6 +167,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 ### 🔒 Data Handling
 
 #### Data Minimization
+
 - **Collect only necessary** customer data
 - **Purpose limitation** for data usage
 - **Data retention** policies and automated deletion
@@ -159,6 +175,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 - **Consent management** for data processing
 
 #### Secure Data Storage
+
 - **Encrypted databases** with access controls
 - **Regular backups** with encryption
 - **Secure deletion** of expired data
@@ -168,6 +185,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 ### 🌍 Privacy Protection
 
 #### Customer Privacy
+
 - **Transparent privacy** policies and practices
 - **Customer consent** management
 - **Right to access** and data portability
@@ -175,6 +193,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 - **Data breach** notification procedures
 
 #### Internal Data Handling
+
 - **Need-to-know** access principles
 - **Data classification** and labeling
 - **Employee training** on data protection
@@ -186,6 +205,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 ### 🚨 Security Incident Management
 
 #### Incident Response Process
+
 1. **Detection** - Automated and manual monitoring
 2. **Assessment** - Impact and severity evaluation
 3. **Containment** - Immediate threat mitigation
@@ -194,6 +214,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 6. **Communication** - Stakeholder notification
 
 #### Communication Protocols
+
 - **Customer notification** for relevant incidents
 - **Regulatory reporting** as required by law
 - **Partner communication** for shared responsibilities
@@ -203,6 +224,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 ### 📈 Continuous Improvement
 
 #### Security Program Enhancement
+
 - **Regular security** assessments and audits
 - **Penetration testing** by third-party experts
 - **Vulnerability management** and patching
@@ -210,6 +232,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 - **Industry collaboration** and threat sharing
 
 #### Innovation and Research
+
 - **Emerging threat** research and analysis
 - **New security technology** evaluation and adoption
 - **Security community** participation and contribution
@@ -223,6 +246,7 @@ Magpie maintains **PCI Service Provider Level 1** certification, the highest lev
 Magpie provides automated tools to help simplify your compliance requirements:
 
 #### For Merchants
+
 - **Automated PCI** scope reduction
 - **Compliance reporting** and documentation
 - **Security questionnaire** assistance
@@ -230,6 +254,7 @@ Magpie provides automated tools to help simplify your compliance requirements:
 - **Policy template** and implementation guides
 
 #### For Developers
+
 - **Secure coding** guidelines and tools
 - **Compliance testing** frameworks
 - **Security validation** during development
@@ -241,6 +266,7 @@ Magpie provides automated tools to help simplify your compliance requirements:
 ### 🔄 Operational Resilience
 
 #### Disaster Recovery
+
 - **Multi-region deployment** for high availability
 - **Automated failover** and recovery procedures
 - **Regular backup** testing and validation
@@ -248,6 +274,7 @@ Magpie provides automated tools to help simplify your compliance requirements:
 - **Business continuity** planning and testing
 
 #### Service Availability
+
 - **99.9% uptime** service level agreement
 - **Redundant infrastructure** and load balancing
 - **Capacity planning** and auto-scaling
@@ -259,6 +286,7 @@ Magpie provides automated tools to help simplify your compliance requirements:
 ### 🤝 Security Resources
 
 #### For Businesses
+
 - **Security documentation** and best practices
 - **Compliance assistance** and guidance
 - **Security training** materials and resources
@@ -266,6 +294,7 @@ Magpie provides automated tools to help simplify your compliance requirements:
 - **Regular security** updates and advisories
 
 #### For Developers
+
 - **Security APIs** and implementation guides
 - **Security testing** tools and frameworks
 - **Vulnerability reporting** and bounty program
@@ -273,6 +302,7 @@ Magpie provides automated tools to help simplify your compliance requirements:
 - **Technical security** support and consultation
 
 ### Contact Security Team
+
 - **Security inquiries**: security@magpie.im
 - **Vulnerability reports**: security-reports@magpie.im
 - **Compliance questions**: compliance@magpie.im
@@ -280,4 +310,4 @@ Magpie provides automated tools to help simplify your compliance requirements:
 
 ---
 
-*Your security is our priority. For questions about our security practices or to report security concerns, contact our security team at security@magpie.im.*
+_Your security is our priority. For questions about our security practices or to report security concerns, contact our security team at security@magpie.im._

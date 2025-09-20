@@ -26,14 +26,15 @@ All payouts are processed in **Philippine Peso (PHP)**. If you're processing pay
 
 Before you can receive payouts, ensure you have:
 
-✅ **Connected Bank Account**: Link your business bank account in your dashboard
-✅ **Completed Account Setup**: Finish your Magpie account verification
-✅ **Met Minimum Threshold**: Reach the minimum payout amount
-✅ **Identity Verification**: Complete any required verification for fraud prevention
+- ✅ **Connected Bank Account**: Link your business bank account in your dashboard
+- ✅ **Completed Account Setup**: Finish your Magpie account verification
+- ✅ **Met Minimum Threshold**: Reach the minimum payout amount
+- ✅ **Identity Verification**: Complete any required verification for fraud prevention
 
 ## Fees
 
 A small processing fee is deducted from your payout total. This fee covers:
+
 - Payment processing costs
 - Currency conversion (if applicable)
 - Banking transfer fees
@@ -41,6 +42,7 @@ A small processing fee is deducted from your payout total. This fee covers:
 ## Monitoring Your Payouts
 
 Track all your payouts in real-time through your Magpie dashboard:
+
 - View payout history
 - Check pending payouts
 - Download payout statements
@@ -49,10 +51,11 @@ Track all your payouts in real-time through your Magpie dashboard:
 ## Getting Support
 
 If you have questions about your payouts or need assistance:
+
 - Contact our support team through your dashboard
 - Email us at support@magpie.im
 - Check your account notifications for important updates
 
 ---
 
-*Need faster payouts or custom scheduling? Contact our sales team to discuss Express Payouts or enterprise solutions tailored to your business needs.*
+_Need faster payouts or custom scheduling? Contact our sales team to discuss Express Payouts or enterprise solutions tailored to your business needs._
