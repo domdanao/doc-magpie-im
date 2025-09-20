@@ -167,6 +167,7 @@
 		"logo": {
 			"darkMode": "https://magpie.im/assets/images/logo.png",
 			"lightMode": "https://magpie.im/assets/images/logo.png"
-		}
+		},
+		"favicon": "https://magpie.im/assets/images/logo-1.png"
 	}
 }
