@@ -10,7 +10,6 @@ Begin your journey with Magpie by understanding the basics and setting up your a
 
 - **Account Activation** - The first step to your journey as a Magpie merchant
 - **Getting Paid** - Understanding payouts and settlements
-- **Fees and Pricing** - Transparent pricing structure
 - **Supported Countries** - Geographic coverage and requirements
 - **Restricted Businesses** - Prohibited activities and compliance
 
@@ -118,8 +117,7 @@ Understand how Magpie protects your business and customer data with enterprise-g
 
 ### For Small Businesses
 
-- **No Setup Fees** - Start accepting payments immediately
-- **Transparent Pricing** - 3.2% + ₱10 per transaction
+- **Quick Setup** - Start accepting payments immediately
 - **Quick Approval** - Most accounts approved within 1-3 days
 - **Easy-to-Use Dashboard** - Manage everything in one place
 

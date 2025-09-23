@@ -39,7 +39,7 @@ Magpie supports multiple currencies to help you expand your business globally wh
 1. **Display prices** in customer's local currency
 2. **Collect payment** in their preferred currency
 3. **Instant conversion** at competitive rates
-4. **Transparent pricing** with no hidden fees
+4. **Transparent pricing** with no hidden costs
 
 ### Settlement Process
 1. **Payment collected** in customer's currency
@@ -54,12 +54,6 @@ Magpie supports multiple currencies to help you expand your business globally wh
 - **Competitive spreads** for all supported currencies
 - **Transparent pricing** with no hidden markups
 - **Rate transparency** in transaction reporting
-
-### Conversion Fees
-- **Minimal conversion costs** built into competitive rates
-- **No additional fees** for currency conversion
-- **Volume discounts** available for high-volume merchants
-- **Enterprise rates** for large-scale operations
 
 ## Setting Up Multi-Currency
 

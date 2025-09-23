@@ -19,7 +19,7 @@ For a ₱1,000 product sale:
 | Component | Amount |
 |-----------|--------|
 | Product Price | ₱1,000.00 |
-| Magpie Platform Fee (3.2% + ₱10) | ₱42.00 |
+| Magpie Platform Fee (3.2% + ₱10) | ₱42.00 |y1
 | **Your Net Earnings** | **₱958.00** |
 
 ## Payout Fees

@@ -95,7 +95,7 @@ Activate your account and start accepting real payments.
 ## Why Choose Magpie?
 
 ### For Small Businesses
-- **No setup fees** or monthly charges
+- **Quick setup** with no monthly charges
 - **Easy-to-use dashboard** for managing payments
 - **Quick approval** process for most businesses
 - **Competitive rates** with transparent pricing
