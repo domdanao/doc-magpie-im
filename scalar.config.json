@@ -65,12 +65,6 @@
 							"icon": "phosphor/thin/coin"
 						},
 						{
-							"name": "Fees",
-							"type": "page",
-							"path": "docs/guides/getting-started/fees.md",
-							"icon": "phosphor/thin/money"
-						},
-						{
 							"name": "Supported Countries",
 							"type": "page",
 							"path": "docs/guides/getting-started/supported-countries.md",
